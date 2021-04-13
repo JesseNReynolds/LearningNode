@@ -38,4 +38,5 @@ REPL is basically like TUX or Rails Console
 
 # Built-in Modules
 - Theres a bunch of em. Check the docs.
-- 
+  - OS module gives info about the machine
+  - path module gives info about paths
