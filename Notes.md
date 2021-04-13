@@ -26,7 +26,7 @@ REPL is basically like TUX or Rails Console
 - you can console.log any of these.
 
 # Modules in Node
-## 03-modules.js
+## 03-modules
 - Use modules to seperate concerns and give structure.
 - Very similar to es6 modules, like in react.
 - With CommonJS, every file is a module by default.
@@ -37,6 +37,11 @@ REPL is basically like TUX or Rails Console
 - If we invoke in a function in an import, it will run the ivoked function (see addValues).
 
 # Built-in Modules
+## 04-built-in-modules
 - Theres a bunch of em. Check the docs.
   - OS module gives info about the machine
   - path module gives info about paths
+
+# DAY
+- Done for the day, was busy this morning. Won't have time to do much tomorrow, but should be able to do a lot Friday.
+- Pick up from https://www.youtube.com/watch?v=Oe421EPjeBE&t=5669s 
