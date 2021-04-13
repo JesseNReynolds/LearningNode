@@ -25,4 +25,13 @@ REPL is basically like TUX or Rails Console
   - process => info about env where the program is being executed
 - you can console.log any of these.
 
+# Modules in Node
+## 03-modules.js
+- Use modules to seperate concerns and give structure.
+- Very similar to es6 modules, like in react.
+- With CommonJS, every file is a module by default.
+- Exports are a JS object, we add the exports we want.
+- To export, set modules.exports to equal an obj containing the variables to export
+  - module.export = {john, peter}
+  - module.export = {john: 'John', peter: 'Peter'}
 
