@@ -34,4 +34,8 @@ REPL is basically like TUX or Rails Console
 - To export, set modules.exports to equal an obj containing the variables to export
   - module.export = {john, peter}
   - module.export = {john: 'John', peter: 'Peter'}
+- If we invoke in a function in an import, it will run the ivoked function (see addValues).
 
+# Built-in Modules
+- Theres a bunch of em. Check the docs.
+- 
