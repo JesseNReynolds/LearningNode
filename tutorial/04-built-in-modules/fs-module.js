@@ -10,7 +10,8 @@ console.log(first, second)
 // writeFileSync('./content/result-sync.txt', `Here is the result: ${first}, ${second}` )
 
 // as above but appends
-writeFileSync('./content/result-sync.txt', 
-`Here is the result: ${first}, ${second}`, 
-{flag: 'a'} 
+writeFileSync(
+    './content/result-sync.txt', 
+    `Here is the result: ${first}, ${second}`, 
+    {flag: 'a'} 
 )
