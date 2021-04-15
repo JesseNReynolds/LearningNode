@@ -69,6 +69,7 @@ REPL is basically like TUX or Rails Console
 - When pushing to github, no reason to include the node_modules.
   - Next dev (or future you) can clone the repo and just run npm install to grab dependencies listed in the package.json
 - NPX and local dependencies tend to work more uniformly than global dependencies
+- package-lock.json helps make sure that dependencies of dependincies are correct verisons
 
 # Nodemon and devDependencies
 - 'refreshes' on saves
