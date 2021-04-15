@@ -87,3 +87,10 @@ REPL is basically like TUX or Rails Console
   - When developing for browser, we can use async methods like fetch, setTimeout to do a callback later
 - The event loop allows us to take a request, register the CB to run when the task is complete, run immediate tasks, then execute the CB when there is no immediate task left
   - This works regardless of how long it takes to do the deffered task, as evident in the setTimeout example
+
+# Events
+- We're used to hadling events like button clicks in browser JS
+- We're going to use events heavily in Node
+- We can subscribe to events, then when they happen(when we emit them), we can do logic.
+  - ORDER MATTERS
+- Often we will not write our own events, but many built in modules rely on them
