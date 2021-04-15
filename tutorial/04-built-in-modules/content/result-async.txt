@@ -1,1 +1,1 @@
-Here is the result: Hello this is the first text file., Hello this is the second text file.
+THIS IS GREAT: Hello this is the first text file., Hello this is the second text file.
