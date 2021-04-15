@@ -67,3 +67,11 @@ REPL is basically like TUX or Rails Console
 - THERE IS NO QUALITY CONTROL, USE YOUR HEAD
   - If weekly downloads are high, it's likely a solid package
 - When pushing to github, no reason to include the node_modules.
+  - Next dev (or future you) can clone the repo and just run npm install to grab dependencies listed in the package.json
+
+# Nodemon and devDependencies
+- 'refreshes' on saves
+- npm i nodemon -D saves as dev dependency
+- use devDependencies for things like linting, testing, etc which you want in your dev environment but not your release.
+- we also changed our scripts in package.json so that there is a start script which runs nodemon app.js
+

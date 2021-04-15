@@ -18,3 +18,7 @@ const _ = require('lodash')
 const items = [1, [2, [3, [4]]]]
 const newItems = _.flattenDeep(items)
 console.log(newItems)
+console.log('heyo')
+
+// you can uninstall pacakages with npm uninstall <packageName>
+// you can also remove the dependency in package.json and delete the node_modules then mpn install again
