@@ -100,10 +100,14 @@ REPL is basically like TUX or Rails Console
 - http server methods are events driven!
 
 # Streams 
-##
+## 09-basic-streams
 - There are four types
   - Writable
   - Readable
   - Duplex
   - Transform
 - Streams extend the EventEmitter class.
+
+# Day
+- Need to eat before my last few meetings for the day.
+- Pick up from https://www.youtube.com/watch?v=Oe421EPjeBE&t=13246s
