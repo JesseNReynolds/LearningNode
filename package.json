@@ -1,0 +1,23 @@
+{
+  "name": "LearningNode",
+  "version": "1.0.0",
+  "description": "Repo for storing all the code from following along with https://www.youtube.com/watch?v=Oe421EPjeBE",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseNReynolds/LearningNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesseNReynolds/LearningNode/issues"
+  },
+  "homepage": "https://github.com/JesseNReynolds/LearningNode#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

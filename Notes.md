@@ -45,3 +45,25 @@ REPL is basically like TUX or Rails Console
 # DAY
 - Done for the day, was busy this morning. Won't have time to do much tomorrow, but should be able to do a lot Friday.
 - Pick up from https://www.youtube.com/watch?v=Oe421EPjeBE&t=5669s 
+
+# HTTP Module Setup
+## 04-built-in-modules
+- This will be brief because there will be lots more HTTP coming up.
+- In the future we will be using Express to abstract some of the HTTP modules functionality
+- With default HTTP module we can use if/else to route for paths and a badpath page
+
+# Break
+- Only had a few minutes before a meeting, back after.
+
+# NPM
+- BUT WAIT THERE'S MORE
+- You're quite probably not the first person to try to do something like the thing you're doing. It's often worth checking if someone else has done the thing and shared the thing.
+- Use NPM to
+  - Reuse our own code
+  - Use code from other devs
+  - Share your code with other devs
+- NPM calls reusable code a package
+  - You may also hear dependency or module, they're often used interchangeably
+- THERE IS NO QUALITY CONTROL, USE YOUR HEAD
+  - If weekly downloads are high, it's likely a solid package
+- When pushing to github, no reason to include the node_modules.
