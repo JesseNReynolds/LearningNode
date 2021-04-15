@@ -78,4 +78,12 @@ REPL is basically like TUX or Rails Console
 - we also changed our scripts in package.json so that there is a start script which runs nodemon app.js
 
 # Break 
-- return on https://www.youtube.com/watch?v=Oe421EPjeBE&t=5669s
+- return on https://www.youtube.com/watch?v=Oe421EPjeBE&t=8858s
+
+# Event loop basics
+- What allows node to perform non-blocking operations by offloading ops to the system kernel whenever possible
+- Javascript is Synchronous and Single Threaded
+  - It reads line by line, and does one thing and then the next
+  - When developing for browser, we can use async methods like fetch, setTimeout to do a callback later
+- The event loop allows us to take a request, register the CB to run when the task is complete, run immediate tasks, then execute the CB when there is no immediate task left
+  - This works regardless of how long it takes to do the deffered task, as evident in the setTimeout example
