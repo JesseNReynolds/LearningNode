@@ -77,4 +77,5 @@ REPL is basically like TUX or Rails Console
 - use devDependencies for things like linting, testing, etc which you want in your dev environment but not your release.
 - we also changed our scripts in package.json so that there is a start script which runs nodemon app.js
 
-
+# Break 
+- return on https://www.youtube.com/watch?v=Oe421EPjeBE&t=5669s
