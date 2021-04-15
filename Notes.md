@@ -56,6 +56,7 @@ REPL is basically like TUX or Rails Console
 - Only had a few minutes before a meeting, back after.
 
 # NPM
+## 05-npm.js
 - BUT WAIT THERE'S MORE
 - You're quite probably not the first person to try to do something like the thing you're doing. It's often worth checking if someone else has done the thing and shared the thing.
 - Use NPM to
@@ -81,6 +82,7 @@ REPL is basically like TUX or Rails Console
 - return on https://www.youtube.com/watch?v=Oe421EPjeBE&t=8858s
 
 # Event loop basics
+## 06-event-loop-examples
 - What allows node to perform non-blocking operations by offloading ops to the system kernel whenever possible
 - Javascript is Synchronous and Single Threaded
   - It reads line by line, and does one thing and then the next
@@ -89,8 +91,19 @@ REPL is basically like TUX or Rails Console
   - This works regardless of how long it takes to do the deffered task, as evident in the setTimeout example
 
 # Events
+## 08-basic-events 
 - We're used to hadling events like button clicks in browser JS
 - We're going to use events heavily in Node
 - We can subscribe to events, then when they happen(when we emit them), we can do logic.
   - ORDER MATTERS
 - Often we will not write our own events, but many built in modules rely on them
+- http server methods are events driven!
+
+# Streams 
+##
+- There are four types
+  - Writable
+  - Readable
+  - Duplex
+  - Transform
+- Streams extend the EventEmitter class.
