@@ -111,3 +111,24 @@ REPL is basically like TUX or Rails Console
 # Day
 - Need to eat before my last few meetings for the day.
 - Pick up from https://www.youtube.com/watch?v=Oe421EPjeBE&t=13246s
+
+# Quick http review
+- No files for this one, just instruction and review!
+- Browser request review: we (the browser) send an HTTP request message, the server sends and HTTP response message.
+- We're going to build servers with Node.
+  - We'll also use the Express framework, because we don't want to build our server totally from scratch.
+- HTTP messages structure:
+  - URL
+  - Method
+    - GET, POST, PATCH, PUT, DELETE, etc
+  - Status Code
+    - 200s for good
+    - 400s for bad
+  - Remote address
+  - Referrer Policy
+  - Headers
+    - Meta data, some will be taken care of, some we'll need to manage
+  - Body
+    - aka payload
+
+# Tutorial Project
