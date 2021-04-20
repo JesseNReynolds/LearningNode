@@ -131,4 +131,9 @@ REPL is basically like TUX or Rails Console
   - Body
     - aka payload
 
-# Tutorial Project
+# Express tutorial
+- Quick review of http module which lets us set up a listening port and methods to recieve requests and send responses.
+
+# Day
+- I'm on to networking events for the rest of the day
+- Pick up from https://youtu.be/Oe421EPjeBE?t=15309
