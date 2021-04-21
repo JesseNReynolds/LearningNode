@@ -1,25 +1,21 @@
-const http = require('http')
+const express = require('express')
+const app = express()
 
-const server = http.createServer((req, res) => {
-  const url = req.url
-  // home page
-  if (url === '/') {
-    res.writeHead(200, { 'content-type': 'text/html' })
-    res.write('<h1>home page</h1>')
-    res.end()
-  }
-  // about page
-  else if (url === '/about') {
-    res.writeHead(200, { 'content-type': 'text/html' })
-    res.write('<h1>about page</h1>')
-    res.end()
-  }
-  // 404
-  else {
-    res.writeHead(404, { 'content-type': 'text/html' })
-    res.write('<h1>page not found</h1>')
-    res.end()
-  }
+// establish listening port, go ahead and log that we're running
+app.listen(5000, () => {
+  console.log('Server is listening on port 5000...')
 })
 
-server.listen(5000)
+// when we recieve get requests at '/', fire callback and send resp with status 200 and the text 'Home Page'
+app.get('/', (req, res) => {
+  res.status(200).send('Home Page')
+})
+
+app.get('/about', (req, res) => {
+  res.status(200).send('About Page')
+})
+
+// when we recieve any method request at any path that isn't above, send back a 404 and a not found message.
+app.all('*', (req, res) => {
+  res.status(404).send('<h1>Resource not found</h1>')
+})

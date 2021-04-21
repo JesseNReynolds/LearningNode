@@ -119,6 +119,7 @@ REPL is basically like TUX or Rails Console
     - aka payload
 
 # Express tutorial
+## 1-http-basics and 2-http-app
 - Quick review of http module which lets us set up a listening port and methods to recieve requests and send responses.
 - How do we provide more info?
   - res.writeHead provides header info
@@ -129,5 +130,8 @@ REPL is basically like TUX or Rails Console
 - Back to providing more/different info, we can serve static pages by building them as html files and then passing that HTML file and serving it as the content of a response.
   - Example showing how we could serve a whole site with just the http module, and how it can quickly become cluttered and lengthy, which is why we will be using Express.
 
-# break
-- pickup from https://www.youtube.com/watch?v=Oe421EPjeBE&t=17282s 
+# On to Express proper
+## 3-express-basics
+- Express is a framework to quickly write APIs.
+- Install it like other NPM packages and modules with npm install express
+
