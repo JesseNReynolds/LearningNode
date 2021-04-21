@@ -42,18 +42,12 @@ REPL is basically like TUX or Rails Console
   - OS module gives info about the machine
   - path module gives info about paths
 
-# DAY
-- Done for the day, was busy this morning. Won't have time to do much tomorrow, but should be able to do a lot Friday.
-- Pick up from https://www.youtube.com/watch?v=Oe421EPjeBE&t=5669s 
-
 # HTTP Module Setup
 ## 04-built-in-modules
 - This will be brief because there will be lots more HTTP coming up.
 - In the future we will be using Express to abstract some of the HTTP modules functionality
 - With default HTTP module we can use if/else to route for paths and a badpath page
 
-# Break
-- Only had a few minutes before a meeting, back after.
 
 # NPM
 ## 05-npm.js
@@ -77,9 +71,6 @@ REPL is basically like TUX or Rails Console
 - npm i nodemon -D saves as dev dependency
 - use devDependencies for things like linting, testing, etc which you want in your dev environment but not your release.
 - we also changed our scripts in package.json so that there is a start script which runs nodemon app.js
-
-# Break 
-- return on https://www.youtube.com/watch?v=Oe421EPjeBE&t=8858s
 
 # Event loop basics
 ## 06-event-loop-examples
@@ -108,10 +99,6 @@ REPL is basically like TUX or Rails Console
   - Transform
 - Streams extend the EventEmitter class.
 
-# Day
-- Need to eat before my last few meetings for the day.
-- Pick up from https://www.youtube.com/watch?v=Oe421EPjeBE&t=13246s
-
 # Quick http review
 - No files for this one, just instruction and review!
 - Browser request review: we (the browser) send an HTTP request message, the server sends and HTTP response message.
@@ -133,7 +120,14 @@ REPL is basically like TUX or Rails Console
 
 # Express tutorial
 - Quick review of http module which lets us set up a listening port and methods to recieve requests and send responses.
+- How do we provide more info?
+  - res.writeHead provides header info
+    - status code, pass as int
+    - content type, pass as key-value pairs
+- We've talked a little bit about requests, they come in as big objects, and this is generaly familiar because we've built fetch requests and backend routes before in other frameworks.
+  - Just copy paste here, we've already done routing basics in the http tut in the last section; we're just repeating to cover relation to the request object.
+- Back to providing more/different info, we can serve static pages by building them as html files and then passing that HTML file and serving it as the content of a response.
+  - Example showing how we could serve a whole site with just the http module, and how it can quickly become cluttered and lengthy, which is why we will be using Express.
 
-# Day
-- I'm on to networking events for the rest of the day
-- Pick up from https://youtu.be/Oe421EPjeBE?t=15309
+# break
+- pickup from https://www.youtube.com/watch?v=Oe421EPjeBE&t=17282s 
