@@ -131,7 +131,8 @@ REPL is basically like TUX or Rails Console
   - Example showing how we could serve a whole site with just the http module, and how it can quickly become cluttered and lengthy, which is why we will be using Express.
 
 # On to Express proper
-## 3-express-basics
+## 3-express-basics - 4-express-app
 - Express is a framework to quickly write APIs.
 - Install it like other NPM packages and modules with npm install express
-
+- We can serve big chunks of static data with express.static by passing a whole dir if we want
+- In our setup, we're going to serve index.html with all requests
