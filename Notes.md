@@ -136,3 +136,13 @@ REPL is basically like TUX or Rails Console
 - Install it like other NPM packages and modules with npm install express
 - We can serve big chunks of static data with express.static by passing a whole dir if we want
 - In our setup, we're going to serve index.html with all requests
+- We will be looking at the differnce between implementation between serving API data and server side rendered sites, and doing both.
+
+# Using Express to build an API
+## 6-basic-json - 7-params-query
+- We can use res.json() and pass some json data to send.
+- We can of course be selective about what we're sending forward by only passing certain keys.
+- We can use route params to make our 'show' routes
+  - We can make it known we're looking for params by expressing the route in our get(or post or whatever) function by adding the slug, in this case :productId
+  - Access that value with req.params
+    - note that the value is always going to be a string.
