@@ -159,4 +159,6 @@ REPL is basically like TUX or Rails Console
     - We invoke next at the end of each middleware to be able to stack middleware or return to the standard express response process.
 - In 9-middleware-use we extract logger into it's own file, and apply it to each route with app.use.
   - If we want to apply it to all routes, app.use needs to be at the top, and routes that are listed before app.use won't get hit by app.use
+  - We can pass app.use a base url, applying middleware to the paths that start with that base, then matching to paths below that match the rest of the url of incoming requests. 
+    - We can pass an array of callbacks.
 
