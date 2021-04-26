@@ -146,5 +146,5 @@ REPL is basically like TUX or Rails Console
   - We can make it known we're looking for params by expressing the route in our get(or post or whatever) function by adding the slug, in this case :productId
   - Access that value with req.params
     - note that the value is always going to be a string.
-
-https://www.youtube.com/watch?v=Oe421EPjeBE&t=21042s
+- We can also use Query String Params to ask for specific information, or to search for information
+  - ex 7-params-query.j line 36
