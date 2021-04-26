@@ -148,3 +148,15 @@ REPL is basically like TUX or Rails Console
     - note that the value is always going to be a string.
 - We can also use Query String Params to ask for specific information, or to search for information
   - ex 7-params-query.j line 36
+  - Remember to return when you send a response to avoid sending two responses.
+
+# Middleware
+## 8-middleware-basiscs - 10-middleware-options
+- Middleware is just some code that happens between request and response.
+- In 8-middleware-basic we build a little piece of logging middleware that logs the method, URL, and datetime of requests.
+  - Extracting this functionality to it's own function, and then passing that function as a callback to the routes we want to use it on is obviously good, because it's DRY and concise.
+  - Express passes request object, result object and next to middleware functions.
+    - We invoke next at the end of each middleware to be able to stack middleware or return to the standard express response process.
+- In 9-middleware-use we extract logger into it's own file, and apply it to each route with app.use.
+  - If we want to apply it to all routes, app.use needs to be at the top, and routes that are listed before app.use won't get hit by app.use
+
